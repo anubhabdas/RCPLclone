@@ -1,0 +1,285 @@
+.no-margin{
+	margin: 0px;
+}
+.no-padding{
+	padding: 0px;
+}
+.no-margin-bottom{
+	margin-bottom: 0px;
+	width: 100%;
+}
+.ban{
+	margin-top: 50px;
+}
+.text-info-2{
+	margin: 0 0 10px 0;
+    font-size: 30px;
+    font-family: 'latolight';
+}
+.text-info-1{
+	margin: 0 0 20px 0;
+    font-size: 30px;
+    font-family: 'latolight';
+}
+.header-height{
+	height: 100px;
+}
+.site-footer{
+	background-color: black;
+	margin-top: 30px;
+	padding-top: 30px;
+	color:#FFFFFF;
+}
+.bottom-footer{
+	margin-top: 10px;
+	padding-top: 10px;
+	color: grey;
+	border-top: 1px solid grey;
+}
+.footer-nav{
+	text-align: right;
+	list-style: none;
+}
+.footer-nav li{
+	display: inline;
+	
+}
+.footer-nav li:not(:first-child):before{
+	content: '|';
+	padding: 0px 10px;
+}
+.footer-nav a{
+	color: #1A2091;
+}
+.footer-nav a:hover{
+	color:#2076E1;
+	text-decoration: none;
+}
+.content {
+  margin-top: 40px;
+  height: 300px;
+}
+nav.navbar{
+  background-color:#FFFFFF;
+   // Animation
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+nav.navbar.shrink {
+  min-height: 5px;
+}
+.marginup{
+	margin-top: -50px;
+}
+.bordercol{
+	border-color:#FFFFFF;
+    border-size: 3px;
+}
+.sett{
+	color: #2DB92A;
+}
+.section{
+	margin: 22px 0;
+	display: table;
+}
+p{
+	margin:0px;
+}
+.container2 {
+	width:100%;
+	height:auto;
+	padding:1%;
+}
+.sett{
+	color: #25B51E;
+}
+.icons-img{
+	color:#25B51E;
+}
+.item-choose{
+	padding: 16% 10%;
+	display: table;
+}
+.colpad{
+	padding: 50px 50px 50px 50px;
+}
+.icon-course{
+	display: table-cell;
+    vertical-align: top;
+    padding-right: 30px;
+    position: relative;
+}
+.icon-course:after{
+	position: absolute;
+    content: '';
+    background: #e1e1e1;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    min-height: 200px;
+}
+.second-last{
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #25B51E;
+}
+.circle-icon{
+	height: 100px;
+    width: 100px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+}
+.circle-iconstart{
+	height: 100px;
+    width: 100px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+}
+.circle-icon:after{
+	position: absolute;
+    content: '';
+    width: 85%;
+    height: 2px;
+    top: 50%;
+    right: 105%;
+    margin-top: -1px;
+    background-color: #ACADB0;
+}
+.btn-blue{
+	background-color: #1E60CC;
+	height: 20px;
+}
+.contact{
+	background-image: url(../images/contactus.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    width: 100%;
+    height: 300px;
+    color: #000000;
+    text-align: center;
+    position:relative;
+    vertical-align: middle;
+} 
+.training{
+	background-image: url(../images/training.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    width: 100%;
+    height: 300px;
+    color: #000000;
+    text-align: center;
+    position:relative;
+    vertical-align: middle;
+}       
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+.image h2{ 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+.input-group-btn{
+	position: relative;
+    font-size: 0;
+    white-space: nowrap;
+}
+.input-group{
+	position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.padd5{
+	padding: 5% 5% 5% 5%;
+}
+.padd10{
+	padding: 10% 10% 10% 10%;
+}
+.butt{
+	margin: 0 auto;
+}
+.textcol{
+	color: white;
+}
+.user{
+	/* background-image: url(../images/dots.png); */
+	background-color: #2D5399;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top;
+    width: 100%;
+    height: 300px;
+    color: #000000;
+    text-align: center;
+    position:relative;
+    vertical-align: middle;
+    border: 2px solid #000000;
+}
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+Step 2) Add CSS:
+
+Example
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
